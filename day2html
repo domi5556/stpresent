@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>praksa</title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <img class="logo" src="kepek/logo.svg">
+    <div>
+        <a class="nav2" href="">English</a>
+    </div>
+    <div>
+        <a class="nav3" href="">Magyar</a>
+    </div> 
+    <div>
+        <a class="nav1" href="">Srpski</a>
+    </div>
+    <div class="button1">
+        <a href=""><span class="menu1">O NAMA</span><br><span class="menu1e">vizija za uspeh</span></a>
+    </div>
+    <div class="button2">
+        <a href=""><span class="menu2">DVG PROIZVODI</span><br><span class="menu2e">naši proizvodi</span></a>
+    </div>
+    <div class="button3">
+        <a href=""><span class="menu3">BRENDOVI</span><br><span class="menu3e">koje zasupamo</span></a>
+    </div>
+    <div class="button4">
+        <a href=""><span class="menu4">DISTRIBUCIJA</span><br><span class="menu4e">logistika i operativa</span></a>
+    </div>
+    <div class="button5">
+        <a href=""><span class="menu5">SARADNJA</span><br><span class="menu5e">proširenje ponude</span></a>
+    </div>
+    <div class="button6">
+        <a href=""><span class="menu6">NOVOSTI</span><br><span class="menu6e">aktuelnosti</span></a>
+    </div>
+    <div class="button7">
+        <a href=""><span class="menu7">KONTAKT</span><br><span class="menu7e">kontaktirajte nas</span></a>
+    </div> 
+</header>
+<div class="kep1cut">
+<img class="kep1" src="kepek/video.png">
+</div>
+<div class="whiterect">
+    <img src="kepek/Rectangle 124.png" class="kep2">
+<div class="text1">
+    <div class="text1e">
+    <h1>DVG Company</h1>
+    </div>
+    <div class="text1b">
+        Veleprodaja i maloprodaja kozmetike i<br> kućne hemije
+    </div>
+    <div class="text1c">
+        DVG Company d.o.o. je trgovinsko preduzeće osnovano 2008. godine u Subotici.<br>
+Prvenstvena delatnost kompanije je veleprodaja kozmetike i kućne hemije.<br>
+U potpunosti je u privatnom vlasništvu, sa sedištem u Subotici. Tu se nalazi <br>distrubutivni centar i poslovne prostorije, sa ukupno 3000m2 magacinskog prostora <br>koji zadovoljava sve segmente u pogledu smeštaja, čuvanja i plasiranja robe.
+    </div>
+</div>   
+ <div class="redbox">
+    </div>
+    <div class="graybox">
+    </div>
+    <button class="redbutton" onclick="">Saznajte više o nama
+    </button>
+</div>
+<img class="paralax" src="kepek/BD425E4A-C4C2-41CE-A04C-EB7224D5218B-290920181844270040.jpeg">
+<div class="textpara">Yugo Coral 55
+</div>
+<div class="trans"></div>
+</body>
+</html>
