@@ -1,55 +1,53 @@
-body {
-    font-family: verdana;
+@charset "UTF-8";
 
-}
-
-* {
+body,
+html {
+    max-width: 100%;
     margin: 0%;
     padding: 0%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 a {
-    text-decoration-line: none;
+    text-decoration: none;
 }
 
 header {
-    position: absolute;
     width: 100%;
     height: 75px;
     background-color: #D9D9D9;
     color: black;
 }
 
-.nav {
-    position: absolute;
-    width: 100%;
+.nav1 {
+    position: relative;
+    color: #474747;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 400;
+    left: 82%;
+    top: -56px;
 }
 
-.nav1 a {
-    text-decoration: none;
+.nav2 {
     position: relative;
-    left: 84%;
-    top: -52px;
-    color: #888787;
-    margin-right: 20px;
-}
-
-.nav2 a {
-    position: relative;
-    left: 88%;
-    top: -16px;
+    text-decoration-line: underline;
+    font-family: 'Roboto';
+    font-weight: 400;
     color: black;
-    text-decoration: underline;
-    margin-right: 20px;
+    left: 87%;
+    top: -18px;
 }
 
-.nav3 a {
-    text-decoration: underline;
+.nav3 {
     position: relative;
+    text-decoration-line: underline;
+    font-family: 'Roboto';
+    font-weight: 400;
+    color: black;
     left: 92%;
-    top: -34px;
-    color: black;
-    margin-right: 20px;
+    top: -37px;
 }
 
 .logo {
@@ -70,7 +68,7 @@ header {
     border-left-width: 0.5px;
     height: 62px;
     position: relative;
-    top: -27px;
+    top: -30px;
     left: 5%;
     align-items: center;
 }
@@ -110,7 +108,7 @@ header {
     border-right-style: solid;
     height: 62px;
     position: relative;
-    top: -107px;
+    top: -92px;
     left: 18%;
     align-items: center;
 }
@@ -149,7 +147,7 @@ header {
     border-right-style: solid;
     height: 62px;
     position: relative;
-    top: -169px;
+    top: -154px;
     left: 31%;
     align-items: center;
 }
@@ -189,7 +187,7 @@ header {
     height: 62px;
     position: relative;
     left: 44%;
-    top: -231px;
+    top: -216px;
     align-items: center;
 }
 
@@ -228,7 +226,7 @@ header {
     height: 60px;
     position: relative;
     left: 57%;
-    top: -293px;
+    top: -278px;
     align-items: center;
 }
 
@@ -267,7 +265,7 @@ header {
     height: 62px;
     position: relative;
     left: 70%;
-    top: -353px;
+    top: -338px;
     align-items: center;
 }
 
@@ -306,7 +304,7 @@ header {
     height: 62px;
     position: relative;
     left: 83%;
-    top: -415px;
+    top: -400px;
     align-items: center;
 }
 
@@ -334,4 +332,19 @@ header {
     font-style: normal;
     font-weight: 400;
     line-height: 14px;
+}
+
+.kep1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 62px;
+}
+
+.whiterect {
+    position: relative;
+    background: #F4F4F4;
+    width: 100%;
+    height: 700px;
+    top: 0px;
 }
