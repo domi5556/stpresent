@@ -1,4 +1,4 @@
-@charset "UTF-8";
+style.css
 
 body,
 html {
@@ -26,7 +26,7 @@ header {
     font-family: 'Roboto';
     font-size: 16px;
     font-weight: 400;
-    left: 82%;
+    left: 82.5%;
     top: -56px;
 }
 
@@ -59,7 +59,7 @@ header {
 }
 
 .button1 {
-    width: 225px;
+    width: 160px;
     border-color: #D9D9D9;
     background-color: white;
     border-left-style: solid;
@@ -101,7 +101,7 @@ header {
 }
 
 .button2 {
-    width: 225px;
+    width: 175px;
     border-color: #D9D9D9;
     background-color: white;
     border-right-width: 0.5px;
@@ -109,7 +109,7 @@ header {
     height: 62px;
     position: relative;
     top: -92px;
-    left: 18%;
+    left: 17%;
     align-items: center;
 }
 
@@ -140,7 +140,7 @@ header {
 }
 
 .button3 {
-    width: 225px;
+    width: 185px;
     border-color: #D9D9D9;
     background-color: white;
     border-right-width: 0.5px;
@@ -179,7 +179,7 @@ header {
 }
 
 .button4 {
-    width: 225px;
+    width: 180px;
     border-color: #D9D9D9;
     background-color: white;
     border-right-width: 0.5px;
@@ -218,7 +218,7 @@ header {
 }
 
 .button5 {
-    width: 225px;
+    width: 180px;
     border-color: #D9D9D9;
     background-color: white;
     border-right-width: 0.5px;
@@ -257,7 +257,7 @@ header {
 }
 
 .button6 {
-    width: 225px;
+    width: 178px;
     border-color: #D9D9D9;
     background-color: white;
     border-right-width: 0.5px;
@@ -296,7 +296,7 @@ header {
 }
 
 .button7 {
-    width: 225px;
+    width: 178px;
     border-color: #D9D9D9;
     background-color: white;
     border-right-width: 0.5px;
@@ -335,16 +335,98 @@ header {
 }
 
 .kep1 {
+    object-fit: fill;
     width: 100%;
     height: auto;
     position: relative;
     top: 62px;
 }
 
+
 .whiterect {
     position: relative;
     background: #F4F4F4;
     width: 100%;
-    height: 700px;
-    top: 0px;
+    height: 673px;
+}
+.kep2 {
+    position:relative;
+    width:710px;
+    height:504px;
+    top:72px;
+}
+.text1e {
+    color:#303030; font-family:'Roboto';  font-size:22px; font-weight:700;  line-height:34px;
+    position: relative;
+    top:-425px; left:54%;
+}
+.text1b {
+    position: relative;
+    color:#474747;
+    font-family:'Inter';
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    top:-390px;
+    left:54%;
+}
+.text1c {
+    position:relative;
+    color:#474747 ;
+    font-family:'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22.4px;
+    top:-295px;
+    left:54%;
+}
+
+.graybox {
+    position: relative;
+   background-color:#C4C4C4;
+    width:524px;
+    height:3px;
+    top:-470px;
+    left:54%;
+}
+
+.redbutton {display: inline-flex;
+        position:relative;
+        height: 48px;
+        padding: 0px 16px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;border-radius: 4px;
+        background: var(--Primary, #BF0F0F);
+        color: var(--Surface, #FFF);
+        font-family: Roboto;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18px; 
+        grid-column:2/2; width: 184px; left: 54%; top: -260px;
+}
+
+.paralax {
+    object-fit: fill;
+    position:fixed;
+    width:100%;
+    height:502px;
+}
+.textpara {
+    color: #FFF;
+    position:relative;
+    font-family:'Roboto';
+    font-size:32px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 32.5%;
+    text-align: center;
+    top: -260px;
+    left:50%;
+}
+.trans {
+    color:black;
+    opacity: 0.5;
 }
