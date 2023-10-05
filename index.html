@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
       <title>praksa</title>
       <link rel="stylesheet" type="text/css" href="style.css">
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,100 +14,215 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+
 </head>
 <body>
-
 <header>
-    <img class="logo" src="kepek/logo.svg">
-    <div>
-        <a class="nav2" href="">English</a>
-    </div>
-    <div>
-        <a class="nav3" href="">Magyar</a>
-    </div> 
-    <div>
-        <a class="nav1" href="">Srpski</a>
-    </div>
-    <div class=headerdown>
-    <div class="button1">
-        <a href=""><span class="menu1">O NAMA</span><br><span class="menu1e">vizija za uspeh</span></a>
-    </div>
-    <div class="button2">
-        <a href=""><span class="menu2">DVG PROIZVODI</span><br><span class="menu2e">naši proizvodi</span></a>
-    </div>
-    <div class="button3">
-        <a href=""><span class="menu3">BRENDOVI</span><br><span class="menu3e">koje zasupamo</span></a>
-    </div>
-    <div class="button4">
-        <a href=""><span class="menu4">DISTRIBUCIJA</span><br><span class="menu4e">logistika i operativa</span></a>
-    </div>
-    <div class="button5">
-        <a href=""><span class="menu5">SARADNJA</span><br><span class="menu5e">proširenje ponude</span></a>
-    </div>
-    <div class="button6">
-        <a href=""><span class="menu6">NOVOSTI</span><br><span class="menu6e">aktuelnosti</span></a>
-    </div>
-    <div class="button7">
-        <a href=""><span class="menu7">KONTAKT</span><br><span class="menu7e">kontaktirajte nas</span></a>
-    </div> 
-    </div>
-</header>
-<img class="paralax" src="kepek/yugo.jpg">
-<div class="kep1cut">
-<img class="kep1" src="kepek/video.png">
+<div id="header1">
+    <img id="logo" src="kepek/logo.svg">
+    <ul>
+        <li><a href="#" class="hyperlinkS">Srpski</a></li>
+        <li><a href="#" class="hyperlinkN">English</a></li>
+        <li><a href="#" class="hyperlinkN">Magyar</a></li>
+    </ul>
+    <img id="burger" src="kepek/menu.png">
 </div>
-<div class="whiterect">
-    <img src="kepek/Rectangle 124.png" class="kep2">
-<div class="text1">
-    <div class="text1e">
-    <h1>DVG Company</h1>
+<div id="header2">
+    <ul>
+        <li>
+        <a href="#">O NAMA<br>
+            <span>vizija za uspeh</span>
+        </a>
+        </li>
+        <li>
+        <a href="#">DVG PROIZVODI<br>
+            <span>naši proizvodi</span>
+        </a>
+        </li>
+        <li>
+        <a href="#">BRENDOVI<br>
+            <span>koje zasupamo</span>
+        </a>
+        </li>
+        <li>
+        <a href="#">DISTRIBUCIJA<br>
+            <span>logistika i operativa</span>
+        </a>
+        </li>
+        <li>
+        <a href="#">SARADNJA<br>
+            <span>proširenje ponude</span>
+        </a>
+        </li>
+        <li>
+        <a href="#">NOVOSTI<br>
+            <span>aktuelnosti</span>
+        </a>
+        </li>
+        <li>
+        <a href="#">KONTAKT<br>
+            <span>kontaktirajte nas</span>
+        </a>
+        </li>  
+    </ul>
+</div>
+</header2>
+<div class="slideshow-container">
+
+    <div class="mySlides fade">
+      <img src="kepek/video.png" style="width:100%">
+      <div class="text">Elso kep</div>
     </div>
-    <div class="text1b">
-        Veleprodaja i maloprodaja kozmetike i<br> kućne hemije
+  
+    <div class="mySlides fade">
+      <img src="kepek/Keilaniemi-kuva-Kosti-Keistinen-1440x705.jpg" style="width:100%">
+      <div class="text">Masodik kep</div>
     </div>
-    <div class="text1c">
-        DVG Company d.o.o. je trgovinsko preduzeće osnovano 2008. godine u Subotici.<br>
-Prvenstvena delatnost kompanije je veleprodaja kozmetike i kućne hemije.<br>
-U potpunosti je u privatnom vlasništvu, sa sedištem u Subotici. Tu se nalazi <br>distrubutivni centar i poslovne prostorije, sa ukupno 3000m2 magacinskog prostora <br>koji zadovoljava sve segmente u pogledu smeštaja, čuvanja i plasiranja robe.
+  
+    <div class="mySlides fade">
+      <img src="kepek/Syksy-Suomenlinnassa-68-1_1-1440x705.jpg" style="width:100%">
+      <div class="text">Harmadik kep</div>
     </div>
-</div>   
- <div class="redbox">
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+  </div>
+  <br>
+  
+  
+
+  <div id="graybox">
+    <div id="left">
+    <img src="kepek/Rectangle 124.png" alt="Gray page">
     </div>
-    <div class="graybox">
+    <div id="right">
+        <h1>DVG Company</h1>
+        <span id="top"><h3>Veleprodaja i maloprodaja kozmetike i</h3></span>
+    <span id="bottom"><h3>kućne hemije</h3></span>
+        <p>
+            DVG Company d.o.o. je trgovinsko preduzzće osnovano 2008. godine u Subotici.<br>
+            Prvenstvena delatnost kompanije je veleprodaja kozmetike i kućne hemije.<br>
+            U potpunosti je u privatnom vlasništvu, sa sedištem u Subotici. Tu se nalazi<br>
+            distrubutivni centar i poslovne prostorije, sa ukupno 3000m2 magacinskog prostora<br>
+            koji zadovoljava sve segmente u pogledu smeštaja, čuvanja i plasiranja robe.</p>
+    <button>Saznajte više o nama</button>
     </div>
-    <button class="redbutton" onclick="">Saznajte više o nama
-    </button>
+</div>
+</div>
+<div id="yugo"><h1>YUGO KORAL 45</h1></div>
+
+<div id="afteryugo">
+<ul>
+    <li>
+        <img src="kepek/Rectangle 128.png">
+        <h1>Postanite naš partner</h1>
+    </li>
+    <li>
+        <img src="kepek/Rectangle 129.png">
+        <h1>naši proizvodi</h1>
+    </li>
+    <li>
+        <img src="kepek/Rectangle 130.png">
+        <h1>uvoz iz mađarske</h1>
+    </li>  
+</ul>
+<span id="title"><h1 id=>DVG Company</h1></span>
+<h3>u broj kojama</h3>
 </div>
 
+<div id="redrect">
+    <ul>
+        <li>
+        <h1>3.000<span>m<sup>2</sup></span></h1>
+        <h3>Magacinskog prostora</h3>
+        </li>
+        <li>
+        <h1>20</h1>
+        <h3>Vozila</h3>
+        </li>
+        <li>
+        <h1>8</h1>
+        <h3>Komercijalista</h3>
+        </li>  
+        <li>
+        <h1>120</h1>
+        <h3>Brendova</h3>
+        </li>  
+    </ul>
+</div>
+<div id="pkanta">
+    <h3 id="title2">Naši proizvodi</h3>
+    <p>
+        Naše proizvode DVG Cosmetics odlikuje visok kvalitet kojim se dobija kompletna<br>
+        nega lica I tela. Uspeli smo da uskladimo kvalitet i cenu, što su prepoznali i naši<br>
+        kupci.
+    </p>
 
-<div class="transbox">
-    
+    <ul>
+        <li>
+            <img src="kepek/Rectangle 136 (1).png">
+            <h3>KESE I FOLIJE</h3>
+        </li>
+        <li>
+            <img src="kepek/Rectangle 137.png">
+            <h3>ZA KUHINJU</h3>
+        </li>
+        <li>
+            <img src="kepek/Rectangle 138.png">
+            <h3>Ubrusi i<br>toalet papiri</h3>
+        </li>
+        <li>
+            <img src="kepek/Rectangle 139.png">
+            <h3>KOZMETIKA</h3>
+        </li>
+        <li>
+            <img src="kepek/Rectangle 141.png">
+            <h3>PlastiČne<br>Kante</h3>
+        </li>
+    </ul>
 </div>
-<div class="whitbox">
-    <img class="kep3" src="kepek/Rectangle 128.png">
-    <img class="kep4" src="kepek/Rectangle 129.png">
-    <img class="kep5" src="kepek/Rectangle 130.png">
-    <div class="text3">POSTANITE NAŠ PARTNER</div>
-    <div class="text4">NAŠI PROIZVODI</div>
-    <div class="text5">UVOZ IZ MAĐARSKE</div>
-    <div class="redboxsm"></div>
-    <div class="redboxsm2"></div>
-    <div class="redboxsm3"></div>
-    <h1 class="dvg">DVG Company</h1>
-    </div>
-    <div class="belowdvg">u brojkama</div>
-    <div class="redbox2"></div>
+
+<img id="thing" src="kepek/Group 105 (1).png"/>
+
+<div id="nivea">
+<h3>Istaknuti brendovi za koje radimo<br>distribuciju</h3>
+
+<ul>
+    <li>
+        <img src="kepek/logoi-04.svg">
+        <h4>Dove</h4>
+        </li>
+        <li>
+        <img src="kepek/logoi-03.svg">
+        <h4>Nivea</h4>
+        </li>
+        <li>
+        <img src="kepek/logoi-05.svg">
+        <h4>Palmolive</h4>
+        </li>
+        <li>
+        <img src="kepek/logoi-01.svg">
+        <h4>Vanish</h4>
+        </li>
+        <li>
+        <img src="kepek/logoi-02.svg">
+        <h4>Ajax</h4>
+        </li>
+        <li>
+        <img src="kepek/logoi-06.svg">
+        <h4>Cif</h4>
+    </li>
+</ul>
+
+<div id="this"> 
+    <button>Svi brendovi u našem portfoliju</button></div>
 </div>
-<div class="paratext">YUGO KORAL 55</div>
-<div class="redbox3"></div>
-<div class="redrect"><img src="kepek/Rectangle 140.png"><div class="red1">3.000m2</div>
-<div class="red2">Magacinskog prostora</div>
-<div class="red3">20</div>
-<div class="red4">Vozila</div>
-<div class="red5">8</div>
-<div class="red6">Komercijalista</div>
-<div class="red7">170</div>
-<div class="red8">Brendova</div>
-</div>
+<script src="let slideIndex = 1;.js"></script>
 </body>
+
 </html>
